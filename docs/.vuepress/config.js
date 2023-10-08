@@ -2,8 +2,8 @@ import { defineUserConfig, defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: '你好， VuePress ！',
-  description: '这是我的第一个 VuePress 站点',
+  title: '技术之旅',
+  description: '长风破浪会有时，直挂云帆济沧海',
   theme: defaultTheme({
     // 默认主题配置
     navbar: [
@@ -12,12 +12,12 @@ export default defineUserConfig({
         link: '/',
       },
       {
-        text: 'guide-1',
-        link: '/guide/guide-1',
+        text: 'Java',
+        link: '/java/java体系结构.md',
       },
       {
-        text: 'guide-2',
-        link: '/guide/guide-2',
+        text: 'Linux',
+        link: '/linux/linux常用命令.md',
       },
       {
         text: 'Group',
